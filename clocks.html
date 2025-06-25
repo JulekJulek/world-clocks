@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Clocks & Stopwatch</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    .clock-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .clock {
+      background: #1e1e1e;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+    iframe {
+      border: none;
+    }
+    h2 {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🕒 World Clocks & Stopwatch</h1>
+
+  <div class="clock-container">
+    <!-- London Clock -->
+    <div class="clock">
+      <h2>London</h2>
+      <iframe width="475" height="250" src="https://vclock.com/embed/time/london-united-kingdom/#theme=1&ampm=1&showdate=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- New York Clock -->
+    <div class="clock">
+      <h2>New York</h2>
+      <iframe width="475" height="250" src="https://vclock.com/embed/time/new-york-united-states/#theme=1&ampm=1&showdate=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Stopwatch -->
+    <div class="clock">
+      <h2>Stopwatch</h2>
+      <iframe width="475" height="250" src="https://vclock.com/embed/stopwatch/#theme=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
